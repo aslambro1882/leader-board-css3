@@ -154,3 +154,32 @@ hr{
     
     
 }
+/* Responsive for smart phone */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+    .section-title{
+        margin-left: 15px;
+    }
+    .players{
+        margin-left: 40px;
+
+    }
+    .blogs{
+        margin-left: 30px;
+        grid-column-gap: 10px;
+    }
+    .blog{
+        align-items: center;
+    }
+    .courses{
+        margin-left: 60px;
+    }
+    
+    .courses{
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 40px;
+    }
+
+}
